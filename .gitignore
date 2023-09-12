@@ -1,0 +1,43 @@
+# Módulos do Node.js
+/node_modules
+
+# Logs e arquivos temporários
+npm-debug.log
+yarn-error.log
+*.log
+*.swp
+*.swo
+
+# Dependências específicas de desenvolvimento
+/.pnp*
+.pnp.js
+
+# Arquivos de build
+/build
+
+# Diretório de arquivos temporários do Jest
+/__jest__/
+
+# Diretório de cobertura de testes
+/coverage
+
+# Diretório de caches do yarn
+.yarn/cache
+.yarn/unplugged
+
+# Dependências do Yarn
+.yarn/unplugged
+.yarn/build-state.yml
+
+# Dependências do npm
+package-lock.json
+npm-shrinkwrap.json
+
+# Env file
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
